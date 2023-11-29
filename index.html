@@ -1,0 +1,107 @@
+<!--   Parámetros de configuración de la página web  HTML -->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	   <title>Mi hoja de vida</title>		
+	   <PageMap>   
+    		<DataObject type="thumbnail">
+      		<Attribute name="src" value="imagenes/foto_hv1.png"/>		
+      		<Attribute name="width" value="100"/>
+      		<Attribute name="height" value="100"/>
+    		</DataObject>
+  	 </PageMap>	
+	   <meta name="description" content="Hoja de vida de David Fernando Caycedo Ochoa. Cadie de primera" />
+	   <meta charset="utf-8">
+	   <link rel="icon" href="imagenes/icono_web1.png" type="image/png" sizes="20x20">
+	   <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+  <!--  Aquí inicia la definición de la Estructura general o CUERPO de la página WEB -->
+	<body>
+	  <header>
+	    <figure id="foto_hv">
+			<img src="imagenes/perfil1-removebg-preview.png"
+			alt="Foto HV"
+			title="Foto David" height="150">
+	    </figure>
+
+		<div id="titulo"> <!-- sector para el título HV -->
+			<p>Hoja de Vida</p>
+		</div>
+
+		<div id="subtitulo"> <!-- sector para el subtítulo HV -->
+			<p>David Fernando Caycedo Ochoa</p>
+		</div>
+
+    
+	  </header>
+	  <nav> <!-- Aquí empieza la definición del menú de navegación -->
+		<ul>
+			<li><a id="inicio"; href="index.html">Inicio</a></li>
+			<li><a href="misestudios.html">Mis Estudios</a></li>
+			<li><a href="miexperiencia.html">Mi Experiencia</a></li>
+			<li><a id="contacto"; href="contacto.html">Contacto</a></li>
+		</ul>
+	  </nav>
+    <!-- Aquí inicia el código que estructura el CUERPO PRINCIPAL este MODULO del sistema -->
+
+    <main>    <!-- definimos los contenidos agrupados en la etiqueta <main> -->
+    
+      <aside>      <!-- definimos el bloque del LADO DERECHO -->
+        <!-- Aquí mostramos el menú de redes sociales. Se incluyen los íconos y links cada red -->
+        <img src="imagenes/arrow-sinfondo.png" alt="" id="arrow">
+        <p>¡Conoce más a cerca de mí !</p>
+        <p>consúltame en... </p>          
+        <ul>
+          <li><a href="http://www.facebook.com"> 
+            <img src="imagenes/facebook_sinfondo.png" alt="ícono Facebook" title="mi perfil en Facebook"></a></li>
+  
+          <li><a href="http://www.twitter.com"> 
+            <img src="imagenes/Twitter_sinfondo.png" alt="ícono Twitter" title="mi perfil en Twitter"></a></li>
+  
+          <li><a href="http://www.instagram.com"> 
+            <img src="imagenes/Instagram_sinfondo.png" alt="ícono instagram" title="mi perfil en instagram"></a></li> 
+                               
+      </aside> <!-- Aquí terminan los comonentes del sector lateral -->
+      
+      <section id="section_perfil"> <!-- definimos secciones de contenidos (LADO IZQUIERDO) -->
+        <article id="article1"><p id="Tit_Articulo">Mi perfil profesional</p>
+          <p>En mi trayectoria como Cadie he tenido la opportunidad aprender aspectos importantes, tanto de habilidad como tecnicos y reglamentarios, gracias a eso se me han presentado maravillosas propuestas que no he dejado pasar, para asistir a importantes clubes como:</p>    		
+          <ul>
+            <li>club militar</li>
+            <li>club de la sabana</li>
+            <li>club briseño 18</li>        	
+          </ul>		
+        </article>   
+        
+      </article>              
+    
+      
+    </style>
+      <section id="section_mi_proyecto"> <!-- Aquí definimos la segunda sección de contenidos -->
+        <article>
+          <p> Mi proyecto de vida... </p>
+          <table border="1">
+            <tr>
+              <td>				
+                <img id="ImgMiProyecto1" src="imagenes/crecer-removebg-preview.png" alt="miProyecto.jpg" title="Mi Proyecto">
+                <br>
+              </td>
+              <td><p>Graduarme como profesional en programación de software y desempeñarme
+                  en actividades de investigación y desarrollo tecnológico.</p>
+              </td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+	  </main>  <!-- Aquí termina la definición del cuerpo principal del módulo funcional -->
+
+ 
+      <footer>   <!-- Aquí empieza la definición del pie de página -->
+	    <hr id="lineaFooter">
+		
+	  </footer>
+
+	</body>
+</html>
